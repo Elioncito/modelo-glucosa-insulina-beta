@@ -85,31 +85,28 @@ python fase4_parametrico.py
 Cada script genera y guarda automáticamente todos los archivos PNG
 en el directorio de trabajo.
 
-## Figuras generadas
+## Figuras del informe
 
-### Fase 3 (`fase3_espacio_fase.py`)
+### Fase 3 — Análisis en el espacio fase
 
-| Archivo | Descripción |
-|---------|-------------|
-| `fase3_local_E_1.png` | Retrato local R² alrededor de E₁ |
-| `fase3_local_E_2.png` | Retrato local R² alrededor de E₂ |
-| `fase3_local_E_3.png` | Retrato local R² alrededor de E₃ |
-| `fase3_global_GI.png` | Retrato global R², plano G-I |
-| `fase3_global_Gbeta.png` | Retrato global R², plano G-β |
-| `fase3_local3D_E_1.png` | Retrato local R³ alrededor de E₁ |
-| `fase3_local3D_E_2.png` | Retrato local R³ alrededor de E₂ |
-| `fase3_local3D_E_3.png` | Retrato local R³ alrededor de E₃ |
-| `fase3_global_3D.png` | Retrato global R³ |
+| Fig. | Archivo generado | Descripción | Origen |
+|------|-----------------|-------------|--------|
+| 1 | `figura1.jpeg` | Bosquejos cualitativos locales alrededor de los nodos atractores E₁ y E₂ (planos G-I y G-β) | Generado con `fase3_espacio_fase.py` |
+| 2 | `figura2.jpeg` | Bosquejo cualitativo local alrededor del punto de silla E₃ (planos G-I y G-β) | Generado con `fase3_espacio_fase.py` |
+| 3 | `figura3.jpeg` | Retratos fase locales numéricos en el plano G-I con coordenadas desplazadas (entornos de E₁, E₂ y E₃) | Generado con `fase3_espacio_fase.py` |
+| 4 | `figura4.jpeg` | Retratos fase globales en R² — planos G-I y G-β | Generado con `fase3_espacio_fase.py` |
+| 5 | `figura5.jpeg` | Retrato fase global en R³ = (G, I, β) | Generado con `fase3_espacio_fase.py` |
+| 6 | `figura6.jpeg` | Retratos fase locales en R³ con coordenadas desplazadas (entornos de E₁, E₂ y E₃) | Generado con `fase3_espacio_fase.py` |
 
-### Fase 4 (`fase4_parametrico.py`)
+### Fase 4 — Análisis paramétrico
 
-| Archivo | Descripción |
-|---------|-------------|
-| `fase4_Ge_parametrico.png` | Dependencia de equilibrios vs Gₑ (Fig. 7) |
-| `fase4_F41_escenarioC_Gbeta.png` | Retrato G-β Escenario C (Fig. 8) |
-| `fase4_discriminante_r1_r2.png` | Diagrama discriminante Δ en plano r₁-r₂ (Fig. 9) |
-| `fase4_F42_delta_pos_cero_Gbeta.png` | Retratos G-β para Δ>0 y Δ=0 (Fig. 10) |
-| `fase4_F42_delta_neg_Gbeta.png` | Retrato G-β para Δ<0 (Fig. 11) |
+| Fig. | Archivo generado | Descripción | Origen |
+|------|-----------------|-------------|--------|
+| 7 | `fase4_Ge_parametrico.jpeg` | Dependencia de los equilibrios respecto a Gₑ con ρ = 0.41 fijo (G₁*, I*, β*) | Generado con `fase4_parametrico.py` |
+| 8 | `fase4_F41_escenarioC_Gbeta.jpeg` | Retrato fase global G-β para el Escenario C (Gₑ = 300, ρ = 2.00) | Generado con `fase4_parametrico.py` |
+| 9 | `fase4_discriminante_r1_r2.jpeg` | Diagrama del discriminante Δ = r₁² − 4r₂d₀ en el plano r₁-r₂ | Generado con `fase4_parametrico.py` |
+| 10 | `fase4_F42_delta_pos_cero_Gbeta.jpeg` | Retratos fase G-β para Δ > 0 (biestabilidad) y Δ = 0 (bifurcación silla-nodo) | Generado con `fase4_parametrico.py` |
+| 11 | `fase4_F42_delta_neg_Gbeta.jpeg` | Retrato fase G-β para Δ < 0 (único equilibrio: colapso E₁) | Generado con `fase4_parametrico.py` |
 
 ## Autor
 
