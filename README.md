@@ -6,8 +6,9 @@ que modela la interacción entre glucosa, insulina y masa de células β pancre�
 ## Estructura del repositorio
 
 ```
-├── fase3_espacio_fase.py    # Fase 3 — Retratos fase locales y globales
-├── fase4_parametrico.py     # Fase 4 — Análisis paramétrico (Ge, rho, r1, r2)
+├── fase3_bosquejos.py       # Fase 3 — Bosquejos cualitativos (Figs. 1 y 2)
+├── fase3_espacio_fase.py    # Fase 3 — Retratos fase locales y globales (Figs. 3–6)
+├── fase4_parametrico.py     # Fase 4 — Análisis paramétrico (Figs. 7–11)
 └── README.md
 ```
 
@@ -72,6 +73,7 @@ pip install numpy scipy matplotlib
 ### Localmente
 
 ```bash
+python fase3_bosquejos.py
 python fase3_espacio_fase.py
 python fase4_parametrico.py
 ```
