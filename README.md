@@ -112,4 +112,7 @@ en el directorio de trabajo.
 
 ## Autor
 
-Elioncito
+Daniela Robles Estrada A01659074
+Chiara Bombardieri Balanza A01659462
+Gerardo Javier Lopez Garcia A01660262
+Elian Alejandro López de Alba A01659582
